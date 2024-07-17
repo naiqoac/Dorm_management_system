@@ -6,7 +6,7 @@ import java.sql.*;
   */
 public class dbUtil {
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";  
-    static final String DB_URL = "jdbc:mysql://localhost:3306/system_data?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
+    static final String DB_URL = "your database URL";
     static final String USER = "your user name";
     static final String PASS = "your password";
     public static Connection getCon()throws Exception{
